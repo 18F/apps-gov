@@ -9,6 +9,6 @@ group :jekyll_plugins do
 end
 
 group :test do
-  gem 'rake'
+  # gem 'rake'
   gem 'minitest'
 end
