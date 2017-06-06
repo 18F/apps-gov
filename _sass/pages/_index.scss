@@ -188,7 +188,7 @@ ul {
 
 .usa-hero{
   background-attachment: scroll;
-  background-image: url('/assets/img/wh-hero.jpg');
+  background-image: url($baseurl + '/assets/img/wh-hero.jpg');
   background-position: center 0;
   background-repeat: no-repeat;
   background-size: cover;
