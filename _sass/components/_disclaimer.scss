@@ -10,7 +10,7 @@
   }
 }
 
-// This hides the stage note (i.e. alpha, beta, etc) of the disclaimer for 
+// This hides the stage note (i.e. alpha, beta, etc) of the disclaimer for
 // anything smaller than large screen sizes
 .usa-disclaimer-stage {
   @include media($large-screen) {
@@ -22,4 +22,15 @@
 
 .usa-flag_icon {
   margin-right: .2rem;
+}
+
+
+// Banner message indicating that the site is not currently being updated
+.banner-notice {
+  color: $color-secondary-darkest;
+  height: 3rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: .7rem;
+  text-align: center;
 }
