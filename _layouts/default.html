@@ -39,9 +39,7 @@ skip_index: true
     <script src="{{ site.baseurl }}/assets/js/main.js"></script>
     <script src="{{ site.baseurl }}/assets/js/gaEvents.js"></script>
 
-    {% assign ga_id = site.google_analytics[site.branch]|default:site.google_analytics.default %}
-    {% if ga_id %}{% include google_analytics.html id=ga_id %}{% endif %}
-
+    {% include google_analytics.html %}
   </body>
 <script>
 var JEKYLL_PAGES_API_SEARCH_UI_OPTIONS = {
