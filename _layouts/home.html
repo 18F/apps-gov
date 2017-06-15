@@ -11,29 +11,30 @@
 
     {% include footer.html %}
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="{{site.baseurl}}/assets/js/vendor/jquery-1.11.3.min.js"></script>
+        <!-- Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WBMP24"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WBMP24');</script>
+        <!-- End Google Tag Manager -->
 
-    <!--[if lt IE 9]>
-        <script src="/designstandards/assets/js/vendor/selectivizr-min.js"></script>
-        <script src="/designstandards/assets/js/vendor/respond.js"></script>
-        <script src="/designstandards/assets/js/vendor/rem.min.js"></script>
-      <![endif]-->
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="{{ site.baseurl }}/assets/js/vendor/jquery-1.11.3.min.js"></script>
 
-    <script src="{{site.baseurl}}/assets/js/components.js"></script>
-    <script src="{{site.baseurl}}/assets/js/main.js"></script>
+        <!--[if lt IE 9]>
+            <script src="/designstandards/assets/js/vendor/selectivizr-min.js"></script>
+            <script src="/designstandards/assets/js/vendor/respond.js"></script>
+            <script src="/designstandards/assets/js/vendor/rem.min.js"></script>
+          <![endif]-->
 
-    <!-- Google Tag Manager -->
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-572ZSP"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-572ZSP');</script>
-    <!-- End Google Tag Manager -->
-    
-    {% include google_analytics.html %}
+        <script src="{{ site.baseurl }}/assets/js/components.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/gaEvents.js"></script>
+
+        {% include google_analytics.html %}
   </body>
 <script>
 var JEKYLL_PAGES_API_SEARCH_UI_OPTIONS = {
